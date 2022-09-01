@@ -16,9 +16,20 @@ body {
   height: 100vh;
   width: 100vw;
 
-  background-image: url(./assets/HomeBG.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.homeBG {
+  background-image: url(./assets/HomeBG.png);
+}
+
+.universeBG {
+  background-image: url(./assets/UniverseBG.png);
+}
+
+.explorationBG {
+  background-image: url(./assets/ExplorationBG.png);
 }
 
 nav {

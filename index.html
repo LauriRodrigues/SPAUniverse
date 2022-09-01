@@ -13,12 +13,12 @@
   <link rel="stylesheet" href="style.css">
   <script src="src/index.js" type="module" defer></script>
 </head>
-<body>
+<body class="homeBG">
   <nav>
     <img src="./assets/logo.svg" alt="Logo">
-    <a href="/" onclick="route()">Home</a>
-    <a href="/universe" onclick="route()">O Universo</a>
-    <a href="/exploration" onclick="route()">Exploração</a>
+    <a href="/" onclick="route()" id="navHome">Home</a>
+    <a href="/universe" onclick="route()" id="navUniverse">O Universo</a>
+    <a href="/exploration" onclick="route()" id="navExploration">Exploração</a>
   </nav>
 
   <div id="app"></div>
